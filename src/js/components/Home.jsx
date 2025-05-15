@@ -1,5 +1,5 @@
 import React from "react";
-
+import Cards from "../components/Cards";
 //include images into your bundle
 import rigoImage from "../../img/rigo-baby.jpg";
 
@@ -16,6 +16,8 @@ const Home = () => {
 			<a href="#" className="btn btn-success">
 				If you see this green button... bootstrap is working...
 			</a>
+			{/* Cards */}
+			<Cards />
 			<p>
 				Made by{" "}
 				<a href="http://www.4geeksacademy.com">4Geeks Academy</a>, with
